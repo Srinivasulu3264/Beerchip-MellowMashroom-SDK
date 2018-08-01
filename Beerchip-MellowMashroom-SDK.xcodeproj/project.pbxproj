@@ -10,6 +10,26 @@
 		89B05CD321118F9400A6C84E /* Beerchip_MellowMashroom_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B05CC921118F9400A6C84E /* Beerchip_MellowMashroom_SDK.framework */; };
 		89B05CD821118F9400A6C84E /* Beerchip_MellowMashroom_SDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CD721118F9400A6C84E /* Beerchip_MellowMashroom_SDKTests.swift */; };
 		89B05CDA21118F9400A6C84E /* Beerchip_MellowMashroom_SDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 89B05CCC21118F9400A6C84E /* Beerchip_MellowMashroom_SDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89B05CF92111918D00A6C84E /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CE32111918800A6C84E /* LocationTableViewCell.swift */; };
+		89B05CFA2111918D00A6C84E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CE42111918900A6C84E /* ModelData.swift */; };
+		89B05CFB2111918D00A6C84E /* PageControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CE52111918900A6C84E /* PageControlView.swift */; };
+		89B05CFC2111918D00A6C84E /* BeerMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CE62111918900A6C84E /* BeerMenuViewController.swift */; };
+		89B05CFD2111918D00A6C84E /* RedeemBeerchipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CE72111918900A6C84E /* RedeemBeerchipViewController.swift */; };
+		89B05CFE2111918D00A6C84E /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CE82111918900A6C84E /* FavouritesViewController.swift */; };
+		89B05CFF2111918D00A6C84E /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CE92111918900A6C84E /* MenuBar.swift */; };
+		89B05D002111918D00A6C84E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CEA2111918A00A6C84E /* WelcomeViewController.swift */; };
+		89B05D012111918D00A6C84E /* MyRatingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CEB2111918A00A6C84E /* MyRatingsViewController.swift */; };
+		89B05D022111918D00A6C84E /* EmptySegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CEC2111918A00A6C84E /* EmptySegue.swift */; };
+		89B05D032111918D00A6C84E /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CED2111918A00A6C84E /* MyProfileViewController.swift */; };
+		89B05D042111918D00A6C84E /* BeerchipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CEE2111918A00A6C84E /* BeerchipViewController.swift */; };
+		89B05D052111918D00A6C84E /* BeerInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CEF2111918A00A6C84E /* BeerInfoViewController.swift */; };
+		89B05D062111918D00A6C84E /* BeerMenuTitlesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CF02111918A00A6C84E /* BeerMenuTitlesTableViewCell.swift */; };
+		89B05D072111918D00A6C84E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CF12111918B00A6C84E /* Extension.swift */; };
+		89B05D082111918D00A6C84E /* RewardHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CF22111918B00A6C84E /* RewardHistoryViewController.swift */; };
+		89B05D092111918D00A6C84E /* CashOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CF52111918C00A6C84E /* CashOutViewController.swift */; };
+		89B05D0A2111918D00A6C84E /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CF62111918C00A6C84E /* ContainerViewController.swift */; };
+		89B05D0B2111918D00A6C84E /* BeerMenuSubTitlesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CF72111918D00A6C84E /* BeerMenuSubTitlesTableViewCell.swift */; };
+		89B05D0C2111918D00A6C84E /* CustomPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CF82111918D00A6C84E /* CustomPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +49,28 @@
 		89B05CD221118F9400A6C84E /* Beerchip-MellowMashroom-SDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beerchip-MellowMashroom-SDKTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B05CD721118F9400A6C84E /* Beerchip_MellowMashroom_SDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beerchip_MellowMashroom_SDKTests.swift; sourceTree = "<group>"; };
 		89B05CD921118F9400A6C84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89B05CE32111918800A6C84E /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
+		89B05CE42111918900A6C84E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		89B05CE52111918900A6C84E /* PageControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlView.swift; sourceTree = "<group>"; };
+		89B05CE62111918900A6C84E /* BeerMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerMenuViewController.swift; sourceTree = "<group>"; };
+		89B05CE72111918900A6C84E /* RedeemBeerchipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemBeerchipViewController.swift; sourceTree = "<group>"; };
+		89B05CE82111918900A6C84E /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		89B05CE92111918900A6C84E /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		89B05CEA2111918A00A6C84E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		89B05CEB2111918A00A6C84E /* MyRatingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRatingsViewController.swift; sourceTree = "<group>"; };
+		89B05CEC2111918A00A6C84E /* EmptySegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptySegue.swift; sourceTree = "<group>"; };
+		89B05CED2111918A00A6C84E /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		89B05CEE2111918A00A6C84E /* BeerchipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerchipViewController.swift; sourceTree = "<group>"; };
+		89B05CEF2111918A00A6C84E /* BeerInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerInfoViewController.swift; sourceTree = "<group>"; };
+		89B05CF02111918A00A6C84E /* BeerMenuTitlesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerMenuTitlesTableViewCell.swift; sourceTree = "<group>"; };
+		89B05CF12111918B00A6C84E /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		89B05CF22111918B00A6C84E /* RewardHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardHistoryViewController.swift; sourceTree = "<group>"; };
+		89B05CF32111918B00A6C84E /* BeerchipStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BeerchipStoryboard.storyboard; sourceTree = "<group>"; };
+		89B05CF42111918C00A6C84E /* BeerchipAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BeerchipAssets.xcassets; sourceTree = "<group>"; };
+		89B05CF52111918C00A6C84E /* CashOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashOutViewController.swift; sourceTree = "<group>"; };
+		89B05CF62111918C00A6C84E /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		89B05CF72111918D00A6C84E /* BeerMenuSubTitlesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerMenuSubTitlesTableViewCell.swift; sourceTree = "<group>"; };
+		89B05CF82111918D00A6C84E /* CustomPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +114,28 @@
 			isa = PBXGroup;
 			children = (
 				89B05CCC21118F9400A6C84E /* Beerchip_MellowMashroom_SDK.h */,
+				89B05CF42111918C00A6C84E /* BeerchipAssets.xcassets */,
+				89B05CF32111918B00A6C84E /* BeerchipStoryboard.storyboard */,
+				89B05CEE2111918A00A6C84E /* BeerchipViewController.swift */,
+				89B05CEF2111918A00A6C84E /* BeerInfoViewController.swift */,
+				89B05CF72111918D00A6C84E /* BeerMenuSubTitlesTableViewCell.swift */,
+				89B05CF02111918A00A6C84E /* BeerMenuTitlesTableViewCell.swift */,
+				89B05CE62111918900A6C84E /* BeerMenuViewController.swift */,
+				89B05CF52111918C00A6C84E /* CashOutViewController.swift */,
+				89B05CF62111918C00A6C84E /* ContainerViewController.swift */,
+				89B05CF82111918D00A6C84E /* CustomPageViewController.swift */,
+				89B05CEC2111918A00A6C84E /* EmptySegue.swift */,
+				89B05CF12111918B00A6C84E /* Extension.swift */,
+				89B05CE82111918900A6C84E /* FavouritesViewController.swift */,
+				89B05CE32111918800A6C84E /* LocationTableViewCell.swift */,
+				89B05CE92111918900A6C84E /* MenuBar.swift */,
+				89B05CE42111918900A6C84E /* ModelData.swift */,
+				89B05CED2111918A00A6C84E /* MyProfileViewController.swift */,
+				89B05CEB2111918A00A6C84E /* MyRatingsViewController.swift */,
+				89B05CE52111918900A6C84E /* PageControlView.swift */,
+				89B05CE72111918900A6C84E /* RedeemBeerchipViewController.swift */,
+				89B05CF22111918B00A6C84E /* RewardHistoryViewController.swift */,
+				89B05CEA2111918A00A6C84E /* WelcomeViewController.swift */,
 				89B05CCD21118F9400A6C84E /* Info.plist */,
 			);
 			path = "Beerchip-MellowMashroom-SDK";
@@ -194,6 +258,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B05D072111918D00A6C84E /* Extension.swift in Sources */,
+				89B05D042111918D00A6C84E /* BeerchipViewController.swift in Sources */,
+				89B05CFE2111918D00A6C84E /* FavouritesViewController.swift in Sources */,
+				89B05D002111918D00A6C84E /* WelcomeViewController.swift in Sources */,
+				89B05D062111918D00A6C84E /* BeerMenuTitlesTableViewCell.swift in Sources */,
+				89B05CF92111918D00A6C84E /* LocationTableViewCell.swift in Sources */,
+				89B05D082111918D00A6C84E /* RewardHistoryViewController.swift in Sources */,
+				89B05D022111918D00A6C84E /* EmptySegue.swift in Sources */,
+				89B05D0C2111918D00A6C84E /* CustomPageViewController.swift in Sources */,
+				89B05D0B2111918D00A6C84E /* BeerMenuSubTitlesTableViewCell.swift in Sources */,
+				89B05D032111918D00A6C84E /* MyProfileViewController.swift in Sources */,
+				89B05CFD2111918D00A6C84E /* RedeemBeerchipViewController.swift in Sources */,
+				89B05D012111918D00A6C84E /* MyRatingsViewController.swift in Sources */,
+				89B05CFC2111918D00A6C84E /* BeerMenuViewController.swift in Sources */,
+				89B05D092111918D00A6C84E /* CashOutViewController.swift in Sources */,
+				89B05D052111918D00A6C84E /* BeerInfoViewController.swift in Sources */,
+				89B05CFA2111918D00A6C84E /* ModelData.swift in Sources */,
+				89B05CFF2111918D00A6C84E /* MenuBar.swift in Sources */,
+				89B05D0A2111918D00A6C84E /* ContainerViewController.swift in Sources */,
+				89B05CFB2111918D00A6C84E /* PageControlView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +473,7 @@
 		89B05CE121118F9400A6C84E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DH337745N2;
 				INFOPLIST_FILE = "Beerchip-MellowMashroom-SDKTests/Info.plist";
@@ -407,6 +492,7 @@
 		89B05CE221118F9400A6C84E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DH337745N2;
 				INFOPLIST_FILE = "Beerchip-MellowMashroom-SDKTests/Info.plist";

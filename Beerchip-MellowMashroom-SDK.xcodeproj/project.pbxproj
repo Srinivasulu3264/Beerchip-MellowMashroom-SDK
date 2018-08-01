@@ -30,6 +30,7 @@
 		89B05D0A2111918D00A6C84E /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CF62111918C00A6C84E /* ContainerViewController.swift */; };
 		89B05D0B2111918D00A6C84E /* BeerMenuSubTitlesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CF72111918D00A6C84E /* BeerMenuSubTitlesTableViewCell.swift */; };
 		89B05D0C2111918D00A6C84E /* CustomPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05CF82111918D00A6C84E /* CustomPageViewController.swift */; };
+		89B05D4A2111BF9100A6C84E /* RewardHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B05D492111BF9100A6C84E /* RewardHistoryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		89B05CF62111918C00A6C84E /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		89B05CF72111918D00A6C84E /* BeerMenuSubTitlesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerMenuSubTitlesTableViewCell.swift; sourceTree = "<group>"; };
 		89B05CF82111918D00A6C84E /* CustomPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageViewController.swift; sourceTree = "<group>"; };
+		89B05D492111BF9100A6C84E /* RewardHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardHistoryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				89B05CE52111918900A6C84E /* PageControlView.swift */,
 				89B05CE72111918900A6C84E /* RedeemBeerchipViewController.swift */,
 				89B05CF22111918B00A6C84E /* RewardHistoryViewController.swift */,
+				89B05D492111BF9100A6C84E /* RewardHistoryTableViewCell.swift */,
 				89B05CEA2111918A00A6C84E /* WelcomeViewController.swift */,
 				89B05CCD21118F9400A6C84E /* Info.plist */,
 			);
@@ -270,6 +273,7 @@
 				89B05D0B2111918D00A6C84E /* BeerMenuSubTitlesTableViewCell.swift in Sources */,
 				89B05D032111918D00A6C84E /* MyProfileViewController.swift in Sources */,
 				89B05CFD2111918D00A6C84E /* RedeemBeerchipViewController.swift in Sources */,
+				89B05D4A2111BF9100A6C84E /* RewardHistoryTableViewCell.swift in Sources */,
 				89B05D012111918D00A6C84E /* MyRatingsViewController.swift in Sources */,
 				89B05CFC2111918D00A6C84E /* BeerMenuViewController.swift in Sources */,
 				89B05D092111918D00A6C84E /* CashOutViewController.swift in Sources */,

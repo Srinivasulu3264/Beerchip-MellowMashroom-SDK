@@ -29,12 +29,12 @@ class BeerInfoViewController: UIViewController {
         
         redeemBeerchipBtn.layer.cornerRadius = 8.0
         
-        redeemBeerchipBtn.backgroundColor = UIColor(red: 255/255, green: 171/255, blue: 21/255, alpha: 1.0)
+        redeemBeerchipBtn.backgroundColor = UIColor.rgb(red: 255, green: 171, blue: 21, alpha: 1.0)
         
-        rateBeerBtn.backgroundColor = UIColor(red: 255/255, green: 171/255, blue: 21/255, alpha: 1.0)
+        rateBeerBtn.backgroundColor = UIColor.rgb(red: 255, green: 171, blue: 21, alpha: 1.0)
         rateBeerBtn.layer.cornerRadius = rateBeerBtn.frame.size.height/2
         
-        addToFavouritesBtn.backgroundColor = UIColor(red: 255/255, green: 171/255, blue: 21/255, alpha: 1.0)
+        addToFavouritesBtn.backgroundColor = UIColor.rgb(red: 255, green: 171, blue: 21, alpha: 1.0)
         addToFavouritesBtn.layer.cornerRadius = addToFavouritesBtn.frame.size.height/2
         
         let viewRedeemBtnBorder = CAShapeLayer()

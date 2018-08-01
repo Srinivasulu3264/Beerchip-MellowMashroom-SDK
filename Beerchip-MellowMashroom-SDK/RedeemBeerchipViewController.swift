@@ -27,8 +27,8 @@ class RedeemBeerchipViewController: UIViewController,UITextFieldDelegate {
         super.viewDidLoad()
 
         redeemBeerchipVCLocationIndicatorBtn.layer.cornerRadius = redeemBeerchipVCLocationIndicatorBtn.frame.size.height/2
-        redeemBeerchipVCLocationIndicatorBtn.backgroundColor = UIColor(red: 255/255, green: 171/255, blue: 21/255, alpha: 1.0)
-        viewReceiptExampleBtn.setTitleColor(UIColor(red: 255/255, green: 158/255, blue: 22/255, alpha: 1.0), for: .normal)
+        redeemBeerchipVCLocationIndicatorBtn.backgroundColor = UIColor.rgb(red: 255, green: 171, blue: 21, alpha: 1.0)
+        viewReceiptExampleBtn.setTitleColor(UIColor.rgb(red: 255, green: 158, blue: 22, alpha: 1.0), for: .normal)
         
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard(_:)))
         view.addGestureRecognizer(tap)

@@ -12,8 +12,8 @@ public class BeerchipViewController: UIViewController {
         super.viewDidLoad()
         
         viewRedeemBtn.layer.cornerRadius = 8.0
-        viewRedeemBtn.backgroundColor = UIColor(red: 255/255, green: 171/255, blue: 21/255, alpha: 1.0)
-        beerchipLabel.textColor = UIColor(red: 255/255, green: 158/255, blue: 22/255, alpha: 1.0)
+        viewRedeemBtn.backgroundColor = UIColor.rgb(red: 255, green: 171, blue: 21, alpha: 1.0)
+        beerchipLabel.textColor = UIColor.rgb(red: 255, green: 158, blue: 22, alpha: 1.0) 
         
         let viewRedeemBtnBorder = CAShapeLayer()
         viewRedeemBtnBorder.strokeColor = UIColor.black.cgColor

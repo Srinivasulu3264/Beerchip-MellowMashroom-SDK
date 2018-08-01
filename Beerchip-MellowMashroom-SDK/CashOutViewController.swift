@@ -15,7 +15,7 @@ class CashOutViewController: UIViewController,UICollectionViewDataSource,UIColle
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        separatorView.backgroundColor = UIColor(red: 219/255, green: 219/255, blue: 219/255, alpha: 1.0)
+        separatorView.backgroundColor = UIColor.rgb(red: 219, green: 219, blue: 219, alpha: 1.0) 
 
         giftImagesArr = ["gift-card-mellowmushroom","gift-card-e-giftcard","gift-card-express","gift-card-itunes","gift-card-walmart","gift-card-starbucks"]
         // Do any additional setup after loading the view.

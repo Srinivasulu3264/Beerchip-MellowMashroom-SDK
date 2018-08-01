@@ -80,14 +80,14 @@ class WelcomeViewController: UIViewController {
         
         self.navigationController?.isNavigationBarHidden = true
         
-        redeemButtomConatinerView.backgroundColor = UIColor.init(red: 247.0/255.0, green: 242.0/255.0, blue: 237.0/255.0, alpha: 1.0)
-        bottomView.backgroundColor =  UIColor(red: 255/255, green: 158/255, blue: 22/255, alpha: 1.0)
+        redeemButtomConatinerView.backgroundColor = UIColor.rgb(red: 247, green: 242, blue: 237, alpha: 1.0)
+        bottomView.backgroundColor =  UIColor.rgb(red: 255, green: 158, blue: 22, alpha: 1.0)
         cashoutBtn.layer.cornerRadius = 8.0
         redeemButton.layer.cornerRadius = 8.0
         locationIndicatorBtn.layer.cornerRadius = locationIndicatorBtn.frame.size.height/2
-        locationIndicatorBtn.backgroundColor = UIColor(red: 255/255, green: 171/255, blue: 21/255, alpha: 1.0)
-        welcomeSundarLbl.textColor =  UIColor(red: 255/255, green: 158/255, blue: 22/255, alpha: 1.0)
-        currentBalancedisplayLbl.textColor = UIColor(red: 255/255, green: 158/255, blue: 22/255, alpha: 1.0)
+        locationIndicatorBtn.backgroundColor = UIColor.rgb(red: 255, green: 171, blue: 21, alpha: 1.0)
+        welcomeSundarLbl.textColor =  UIColor.rgb(red: 255, green: 158, blue: 22, alpha: 1.0)
+        currentBalancedisplayLbl.textColor =  UIColor.rgb(red: 255, green: 158, blue: 22, alpha: 1.0)
         
       
         
@@ -105,7 +105,8 @@ class WelcomeViewController: UIViewController {
 //        cashoutBtnView.backgroundColor = UIColor.clear
           cashoutBtnView.isHidden = true
         
-        viewUnderBeerMenuBtn.backgroundColor = UIColor(red: 255/255, green: 158/255, blue: 22/255, alpha: 1.0)
+        viewUnderBeerMenuBtn.backgroundColor = UIColor.rgb(red: 255, green: 158, blue: 22, alpha: 1.0)
+        viewUnderMyProfileBtn.backgroundColor = UIColor.rgb(red: 233, green: 217, blue: 211, alpha: 1.0)
      
         locationArr = ["DECATUR","MIDTOWN","BUCKHEARD","VINIGS","NORTHLAKE","TOMS RIVER, NJ","BROOKHAVEN","MANHATHAN,NY","DONWOODY","EAGLES LANDING","KENNESHAW","HIRAM"]
         
@@ -115,7 +116,7 @@ class WelcomeViewController: UIViewController {
         locationtableConatinerView.isHidden = true
         externalCashoutBtnContainerView.isHidden = true
         
-        externalCashoutBtnContainerView.backgroundColor = UIColor(red: 255/255, green: 171/255, blue: 21/255, alpha: 1.0)
+        externalCashoutBtnContainerView.backgroundColor = UIColor.rgb(red: 255, green: 171, blue: 21, alpha: 1.0)
         
         let index = NSIndexPath(row: 5, section: 0)
         self.locationTableView.selectRow(at: index as IndexPath, animated: true, scrollPosition: UITableViewScrollPosition.middle)
@@ -149,7 +150,7 @@ class WelcomeViewController: UIViewController {
     
     func setDottedBorderForButton(buttonName:UIButton)  {
         
-        buttonName.backgroundColor = UIColor(red: 255/255, green: 171/255, blue: 21/255, alpha: 1.0)
+        buttonName.backgroundColor = UIColor.rgb(red: 255, green: 171, blue: 21, alpha: 1.0)
         let buttonBorder = CAShapeLayer()
         buttonBorder.strokeColor = UIColor.black.cgColor
         buttonBorder.lineDashPattern = [4, 2]
@@ -178,8 +179,8 @@ class WelcomeViewController: UIViewController {
     
     @IBAction func myProfileBtnAction(_ sender: Any) {
         
-        viewUnderBeerMenuBtn.backgroundColor = .white
-        viewUnderMyProfileBtn.backgroundColor = UIColor(red: 255/255, green: 158/255, blue: 22/255, alpha: 1.0)
+        viewUnderBeerMenuBtn.backgroundColor = UIColor.rgb(red: 233, green: 217, blue: 211, alpha: 1.0)
+        viewUnderMyProfileBtn.backgroundColor = UIColor.rgb(red: 255, green: 158, blue: 22, alpha: 1.0)
 
         currentBalancedisplayLbl.text = "$19.00"
         myBalanceDisplayLbl.text = "$19.00"
@@ -196,8 +197,8 @@ class WelcomeViewController: UIViewController {
     
     @IBAction func beerMenuBtnAction(_ sender: Any) {
         
-        viewUnderBeerMenuBtn.backgroundColor = UIColor(red: 255/255, green: 158/255, blue: 22/255, alpha: 1.0)
-        viewUnderMyProfileBtn.backgroundColor = .white
+        viewUnderBeerMenuBtn.backgroundColor = UIColor.rgb(red: 255, green: 158, blue: 22, alpha: 1.0)
+        viewUnderMyProfileBtn.backgroundColor = UIColor.rgb(red: 233, green: 217, blue: 211, alpha: 1.0)
         
         currentBalancedisplayLbl.text = "$19.00"
         myBalanceDisplayLbl.text = "$19.00"
@@ -259,8 +260,8 @@ class WelcomeViewController: UIViewController {
 
             currentBalancedisplayLbl.text = "$19.00"
             
-            viewUnderBeerMenuBtn.backgroundColor = .white
-            viewUnderMyProfileBtn.backgroundColor = UIColor(red: 255/255, green: 158/255, blue: 22/255, alpha: 1.0)
+            viewUnderBeerMenuBtn.backgroundColor = UIColor.rgb(red: 233, green: 217, blue: 211, alpha: 1.0)
+            viewUnderMyProfileBtn.backgroundColor = UIColor.rgb(red: 255, green: 158, blue: 22, alpha: 1.0)
           
             myBalanceDisplayLbl.text = "$19.00"
             
@@ -271,8 +272,8 @@ class WelcomeViewController: UIViewController {
             isCashoutVCRemoving = true
             cashoutVCAddingAndRemoving()
             
-            viewUnderBeerMenuBtn.backgroundColor = UIColor(red: 255/255, green: 158/255, blue: 22/255, alpha: 1.0)
-            viewUnderMyProfileBtn.backgroundColor = .white
+            viewUnderBeerMenuBtn.backgroundColor = UIColor.rgb(red: 255, green: 158, blue: 22, alpha: 1.0)
+            viewUnderMyProfileBtn.backgroundColor = UIColor.rgb(red: 233, green: 217, blue: 211, alpha: 1.0)
             
             currentBalancedisplayLbl.text = "$19.00"
             myBalanceDisplayLbl.text = "$19.00"
@@ -293,7 +294,7 @@ class WelcomeViewController: UIViewController {
         
         if isMyProfileVCAdding {
             self.addChildViewController(myProfileVC)
-            myProfileVC.view.frame = CGRect(x: 0, y: 177, width:  UIScreen.main.bounds.width, height: (UIScreen.main.bounds.height-257))
+            myProfileVC.view.frame = CGRect(x: 0, y: 162, width:  UIScreen.main.bounds.width, height: (UIScreen.main.bounds.height-242))
             self.view.addSubview(myProfileVC.view)
             myProfileVC.didMove(toParentViewController: self)
             isMyProfileVCAdding = false
@@ -439,7 +440,7 @@ extension WelcomeViewController:UITableViewDelegate,UITableViewDataSource{
         cell.locationAddessLbl.text = locationAddressArr[indexPath.row]
         
         let backgroundView = UIView()
-        backgroundView.backgroundColor = UIColor(red: 255/255, green: 158/255, blue: 22/255, alpha: 1.0)
+        backgroundView.backgroundColor = UIColor.rgb(red: 255, green: 158, blue: 22, alpha: 1.0)
         cell.selectedBackgroundView = backgroundView
         
         return cell

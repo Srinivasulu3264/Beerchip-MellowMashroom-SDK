@@ -73,7 +73,7 @@ extension BeerMenuViewController:UITableViewDelegate,UITableViewDataSource {
                 }
                 
                 cell.beerSubTitleLbl.text = "StLouis,MD"
-                cell.beerSubTitleLbl.textColor = UIColor(red: 170/255, green: 170/255, blue: 169/255, alpha: 1.0)
+                cell.beerSubTitleLbl.textColor = UIColor.rgb(red: 170, green: 170, blue: 169, alpha: 1.0) 
                 cell.noOfStarsRatingImageView.image = UIImage(named: (modelDataArr?[indexPath.row-1].starRating)!)
                 return cell
             }

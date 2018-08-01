@@ -14,7 +14,7 @@ class RewardHistoryViewController: UIViewController {
     
     var datesArr =  [String]()
     var titlesArr  = [String]()
-  
+  var costArr = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +25,7 @@ class RewardHistoryViewController: UIViewController {
         
         datesArr = ["June 08,2018","June 02,2018","May 26,2018","May 22,2018"]
         titlesArr = ["TOMS RIVER ,NJ","ROCK VILLE,MD","TOMS RIVER ,NJ","ADAMS MORGAN,DC"]
+        costArr = ["$2.00","$1.60","$1.80","$2.04"]
 
         // Do any additional setup after loading the view.
     }
@@ -33,13 +34,7 @@ class RewardHistoryViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    
-
 }
-
-
 
 extension RewardHistoryViewController:UITableViewDelegate,UITableViewDataSource{
     
@@ -57,6 +52,7 @@ extension RewardHistoryViewController:UITableViewDelegate,UITableViewDataSource{
         cell.dateLbl.textColor = UIColor.rgb(red: 170, green: 170, blue: 169, alpha: 1.0)
         
         cell.titleLbl.text = titlesArr[indexPath.row]
+        cell.costLbl.text = costArr[indexPath.row]
         
         cell.subTitleLbl.text = "Budwiser, Bud Light Lime & Bud Light"
         cell.subTitleLbl.textColor = UIColor.rgb(red: 170, green: 170, blue: 169, alpha: 1.0)

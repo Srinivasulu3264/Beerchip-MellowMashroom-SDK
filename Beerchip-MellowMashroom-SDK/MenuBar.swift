@@ -137,13 +137,13 @@ class MyProfileCellCollectionViewCell: UICollectionViewCell {
         
         addConstraint(NSLayoutConstraint(item: profileImageview, attribute: .centerX, relatedBy: .equal, toItem: self, attribute: .centerX, multiplier: 1, constant: 0))
         
-        addConstraint(NSLayoutConstraint(item: profileImageview, attribute: .height, relatedBy: .equal, toItem: self, attribute: .height, multiplier: 0, constant: 36))
+        addConstraint(NSLayoutConstraint(item: profileImageview, attribute: .height, relatedBy: .equal, toItem: self, attribute: .height, multiplier: 0, constant: 46))
         
         addConstraint(NSLayoutConstraint(item: titleLabel, attribute: .centerX, relatedBy: .equal, toItem: self, attribute: .centerX, multiplier: 1, constant: 0))
         
         addConstraint(NSLayoutConstraint(item: titleLabel, attribute: .height, relatedBy: .equal, toItem: self, attribute: .height, multiplier: 0, constant: 24))
         
-       addConstraintsWithFormat(format: "V:|-8-[v0]-[v1]-|", withViews: profileImageview,titleLabel)
+       addConstraintsWithFormat(format: "V:|-15-[v0]-4-[v1]-15-|", withViews: profileImageview,titleLabel)
         
         
     }

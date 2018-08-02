@@ -17,7 +17,9 @@ class MyProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-    setupMenuBar()
+        DispatchQueue.main.asyncAfter(deadline: .now() , execute: {
+            self.setupMenuBar()
+        })
         // Do any additional setup after loading the view.
     }
     

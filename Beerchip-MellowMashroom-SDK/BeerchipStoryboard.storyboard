@@ -445,11 +445,11 @@
             <objects>
                 <viewController id="wqJ-Gz-nHU" customClass="RewardHistoryViewController" customModule="Beerchip_MellowMushroom_Plugin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fud-5S-nAc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="555"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="567"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hWe-L5-j9i">
-                                <rect key="frame" x="0.0" y="20" width="375" height="535"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="547"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="rewardHistoryTableCellID" rowHeight="120" id="pcb-Bq-XvR" customClass="RewardHistoryTableViewCell" customModule="Beerchip_MellowMashroom_SDK">
@@ -467,7 +467,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DateLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqI-oc-r3E">
-                                                    <rect key="frame" x="66" y="10" width="233" height="16"/>
+                                                    <rect key="frame" x="66" y="10" width="231" height="16"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="16" id="Aci-rU-ghm"/>
                                                     </constraints>
@@ -476,26 +476,26 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TitleLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XbP-nh-dhh">
-                                                    <rect key="frame" x="66" y="28" width="233" height="30"/>
+                                                    <rect key="frame" x="66" y="28" width="231" height="30"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="30" id="KEC-Ot-bhD"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SubtitleLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gik-Bo-O6f">
-                                                    <rect key="frame" x="66" y="60" width="233" height="51.5"/>
+                                                    <rect key="frame" x="66" y="60" width="231" height="51.5"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$2.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAt-wz-pSa">
-                                                    <rect key="frame" x="319" y="49" width="48" height="21.5"/>
+                                                    <rect key="frame" x="317" y="48.5" width="50" height="23"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="48" id="nXy-CM-ZdP"/>
+                                                        <constraint firstAttribute="width" constant="50" id="nXy-CM-ZdP"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -726,14 +726,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kBv-mX-tgN">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="112"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="112" id="uRe-e9-dzh"/>
+                                    <constraint firstAttribute="height" constant="100" id="uRe-e9-dzh"/>
                                 </constraints>
                             </view>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UkM-8U-Eld">
-                                <rect key="frame" x="0.0" y="112" width="375" height="555"/>
+                                <rect key="frame" x="0.0" y="100" width="375" height="567"/>
                                 <connections>
                                     <segue destination="6ci-e6-fUT" kind="embed" identifier="containerVCSegue" id="7Zd-TE-eRf"/>
                                 </connections>
@@ -1620,7 +1620,7 @@
             <objects>
                 <viewController id="6ci-e6-fUT" customClass="ContainerViewController" customModule="Beerchip_MellowMushroom_Plugin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dbk-R1-kzQ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="555"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="567"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="DCn-Xw-Wvv"/>
@@ -1643,11 +1643,11 @@
             <objects>
                 <viewController id="JV1-Pn-6qj" customClass="MyRatingsViewController" customModule="Beerchip_MellowMushroom_Plugin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xsm-46-mK5">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="555"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="567"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="q4H-pv-FuK">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="555"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="567"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="myRatingsTableCellID" rowHeight="120" id="fq5-Y7-7j0" customClass="MyRatingsTableViewCell" customModule="Beerchip_MellowMashroom_SDK">
@@ -1673,9 +1673,9 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4star-rating" translatesAutoresizingMaskIntoConstraints="NO" id="ONJ-g9-kUX">
-                                                    <rect key="frame" x="287" y="47.5" width="80" height="25"/>
+                                                    <rect key="frame" x="287" y="50" width="80" height="20"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="25" id="LHF-dl-m8U"/>
+                                                        <constraint firstAttribute="height" constant="20" id="LHF-dl-m8U"/>
                                                         <constraint firstAttribute="width" constant="80" id="to3-jg-wzh"/>
                                                     </constraints>
                                                 </imageView>
@@ -1726,11 +1726,11 @@
             <objects>
                 <viewController id="XZw-ao-K7W" customClass="FavouritesViewController" customModule="Beerchip_MellowMushroom_Plugin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MSA-7I-qj5">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="555"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="567"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4k6-Id-f7a">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="555"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="567"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FavouriteTableCellID" rowHeight="120" id="w9E-yH-jn1" customClass="FavouritesTableViewCell" customModule="Beerchip_MellowMashroom_SDK">
@@ -1741,7 +1741,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TitleLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uR0-VQ-TZX">
-                                                    <rect key="frame" x="15" y="15" width="293" height="30"/>
+                                                    <rect key="frame" x="15" y="15" width="295" height="30"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="30" id="ist-TE-gJI"/>
                                                     </constraints>
@@ -1750,16 +1750,16 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SubtitleLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="esD-pX-7rR">
-                                                    <rect key="frame" x="15" y="47" width="293" height="57.5"/>
+                                                    <rect key="frame" x="15" y="47" width="295" height="57.5"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="liked" translatesAutoresizingMaskIntoConstraints="NO" id="8ib-zo-cq6">
-                                                    <rect key="frame" x="328" y="44" width="39" height="32"/>
+                                                    <rect key="frame" x="330" y="46" width="37" height="28"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="39" id="bFO-M9-UKc"/>
-                                                        <constraint firstAttribute="height" constant="32" id="ofc-Mu-iVP"/>
+                                                        <constraint firstAttribute="width" constant="37" id="bFO-M9-UKc"/>
+                                                        <constraint firstAttribute="height" constant="28" id="ofc-Mu-iVP"/>
                                                     </constraints>
                                                 </imageView>
                                             </subviews>

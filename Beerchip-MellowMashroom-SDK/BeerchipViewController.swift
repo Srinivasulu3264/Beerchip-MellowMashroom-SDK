@@ -15,6 +15,13 @@ public class BeerchipViewController: UIViewController {
         viewRedeemBtn.backgroundColor = UIColor.rgb(red: 255, green: 171, blue: 21, alpha: 1.0)
         beerchipLabel.textColor = UIColor.rgb(red: 255, green: 158, blue: 22, alpha: 1.0) 
         
+       
+        // Do any additional setup after loading the view.
+    }
+    
+    public override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
         let viewRedeemBtnBorder = CAShapeLayer()
         viewRedeemBtnBorder.strokeColor = UIColor.black.cgColor
         viewRedeemBtnBorder.lineDashPattern = [4, 2]
@@ -22,7 +29,6 @@ public class BeerchipViewController: UIViewController {
         viewRedeemBtnBorder.fillColor = nil
         viewRedeemBtnBorder.path = UIBezierPath(roundedRect: viewRedeemBtn.bounds, cornerRadius: 8.0).cgPath
         viewRedeemBtn.layer.addSublayer(viewRedeemBtnBorder)
-        // Do any additional setup after loading the view.
     }
 
     @IBAction func viewRedeemBtnAction(_ sender: Any) {

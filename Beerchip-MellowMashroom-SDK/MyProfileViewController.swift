@@ -48,24 +48,6 @@ class MyProfileViewController: UIViewController {
     }
     
     
-    @IBAction func rewardsHistoryAction(_ sender: Any) {
-       
-        
-         container.segueIdentifierReceivedFromParent("rewardHistoryVCSegue")
-    }
-    
-    
-    @IBAction func favouritesAction(_ sender: Any) {
-        
-         container.segueIdentifierReceivedFromParent("favouritesVCSegue")
-        
-    }
-    
-    @IBAction func myRatingsAction(_ sender: Any) {
-       
-          container.segueIdentifierReceivedFromParent("myRatingsVCSegue")
-        
-    }
     
     
     
